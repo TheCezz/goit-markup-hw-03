@@ -193,7 +193,7 @@ header a {
 .filter-group ul {
   display: flex;
   justify-content: center;
-  margin: 0px;
+  margin: 0px;5
   border: 0px;
   padding: 0px;
   gap: 8px;
