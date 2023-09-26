@@ -1,0 +1,150 @@
+:root {
+  --brand-color: #2196f3;
+  --descriptor-color-grey: #757575;
+  --default-font-color: #212121;
+  --banner-color: #2f303a;
+  --contrast-color: #fff;
+  --small-font-size: 14px;
+  --logo-font-family: "Raleway", "sans serif", "monospace";
+  --logo-font-weight: 700;
+  --logo-font-size: 26px;
+  --svc-button-hover: #188ce8;
+}
+
+a {
+  color: var(--default-font-color);
+  text-decoration: none;
+  outline: none;
+}
+a:focus {
+  color: var(--brand-color);
+}
+
+.nav-link-current {
+  color: var(--brand-color);
+}
+
+.nav-link a:hover {
+  color: var(--brand-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Roboto", "sans-serif", "monospace";
+  font-color: var(--default-font-color);
+}
+
+.logo {
+  font-family: var(--logo-font-family);
+  font-weight: var(--logo-font-weight);
+  font-size: var(--logo-font-size);
+  line-height: 225%;
+}
+.span-web {
+  color: var(--brand-color);
+}
+
+header {
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--brand-color);
+}
+
+.banner {
+  background-color: var(--banner-color);
+}
+
+button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
+  color: var(--contrast-color);
+  background-color: var(--brand-color);
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--svc-button-hover);
+}
+p {
+  font-weight: 400;
+  line-height: 150%;
+  font-size: var(--small-font-size);
+  color: var(--descriptor-color-grey);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 375%;
+  color: var(--contrast-color);
+}
+h2 {
+  font-size: 36px;
+  line-height: 262%;
+}
+h3 {
+  line-height: 100%;
+  font-size: var(--small-font-size);
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+.team-card {
+  background-color: var(--contrast-color);
+}
+
+.portfolio-items h3 {
+  font-size: 18px;
+  line-height: 225%;
+}
+.filter-button {
+  background-color: #f5f4fa;
+  font-family: "Roboto", "sans-serif", "monospace";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 163%;
+  color: var(--default-font-color);
+  border: none;
+}
+
+.filter-button:focus {
+  background-color: var(--svc-button-hover);
+  color: var(--contrast-color);
+}
+.filter-button:hover {
+  background-color: var(--brand-color);
+  border: none;
+  color: var(--contrast-color);
+  cursor: pointer;
+}
+
+.footer-section {
+  background-color: var(--banner-color);
+  font-weight: 400;
+  font-size: var(--small-font-size);
+  line-height: 100%;
+}
+
+.footer-section .span-studio {
+  color: var(--contrast-color);
+}
+.footer-section address {
+  color: var(--contrast-color);
+  font-style: normal;
+}
+.footer-section a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-section a:hover {
+  color: var(--brand-color);
+}
+.footer-section a:focus {
+  color: var(--svc-button-hover);
+}
