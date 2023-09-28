@@ -78,6 +78,7 @@ h3 {
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 0px;
+  
 }
 
 body {
@@ -85,13 +86,13 @@ body {
   font-color: var(--default-font-color);
 }
 
-header {
+header  {
   font-weight: 500;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #cecece;
 }
+
 header a {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -127,10 +128,13 @@ header a {
   margin-right: 43px;
 }
 
+.header{
+padding:0;
+border-bottom: 1px solid #cecece;
+}
 .banner {
-  padding-top: 200px;
+  padding:200px 0;
   background-color: var(--banner-color);
-  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,7 +147,7 @@ header a {
 
 .our-team {
   background-color: #f5f4fa;
-  padding: 94px 0 94px 0;
+  padding: 94px 0;
 }
 .our-team ul {
   display: flex;
